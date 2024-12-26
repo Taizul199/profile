@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: black;
+    
+   
+
+}
+
+.profilecard{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.profilecardbackground{
+    position: relative;
+    background-color:rgb(5, 94, 94);
+    height: 300px;
+    width: 400px;   
+    border-radius: 15px;
+}
+.profile{
+    
+    height: 150px;
+    width: 150px;
+    
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    top: 10;
+    border: 2px white solid;
+    box-shadow: rgba(3, 0, 0, 3)
+    
+    
+}
+h2,h4{
+   
+    position: relative;
+    color: aliceblue;
+    top: 210px;
+    left: 50px;
+    
+}
+h4{color: tomato;}
+
+
+span{
+    border-left: 6px solid rgb(181, 212, 181);
+  height: 200px;
+  position: absolute;
+  left: 190px;
+  border-radius: 10px;
+}
+a{
+    position: relative;
+    left: 200px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 14px;
+}
+.mobile{
+    position: relative;
+    left: 200px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+a:hover{
+    color: orangered;
+}
